@@ -13,7 +13,7 @@ setup(
     author_email='support@threatconnect.com',
     # convert_2to3_doctests = [''],
     description='Python SDK for ThreatConnect API',
-    download_url='https://github.com/ThreatConnect-Inc/threatconnect-python/tarball/{}'.format(version),
+    download_url='https://github.com/ThreatConnect-Inc/threatconnect-python/tarball/{0}'.format(version),
     entry_points={
         'console_scripts': [
             'stanchion=bin.stanchion:main'
@@ -24,7 +24,8 @@ setup(
     },
     install_requires=[
         'requests==2.13.0',
-        'python-dateutil==2.6.0'
+        'python-dateutil==2.6.0',
+        'enum==0.4.6'
     ],
     license = 'Apache License, Version 2',
     name='threatconnect',
