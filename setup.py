@@ -25,7 +25,7 @@ setup(
     install_requires=[
         'requests==2.13.0',
         'python-dateutil==2.6.0',
-        'enum==0.4.6'
+        'enum34==1.1.6'
     ],
     license = 'Apache License, Version 2',
     name='threatconnect',
